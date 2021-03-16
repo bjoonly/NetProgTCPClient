@@ -1,0 +1,29 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <DockPanel LastChildFill="False">
+            <TextBlock FontSize="15" Margin="5" VerticalAlignment="Center">Sending freaquency:</TextBlock>
+            <ComboBox FontSize="15" Width="100" Margin="10,5" SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Tag="15" IsSelected="True">15 sec</ComboBoxItem>
+                <ComboBoxItem Tag="30">30 sec</ComboBoxItem>
+                <ComboBoxItem Tag="45">45 sec</ComboBoxItem>
+                <ComboBoxItem Tag="60">1 min</ComboBoxItem>
+                <ComboBoxItem Tag="120">2 min</ComboBoxItem>
+
+            </ComboBox>
+            <Button FontSize="15" Width="100" Margin="10,5" DockPanel.Dock="Right" Click="Button_Click">Start</Button>
+        </DockPanel>
+        <ListBox x:Name="listBox" Grid.Row="2" Margin="5,0" DisplayMemberPath=" Name"></ListBox>
+    </Grid>
+</Window>

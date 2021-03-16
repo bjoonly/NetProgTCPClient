@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\bin\Debug\Server.exe.config
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\bin\Debug\Server.exe
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\bin\Debug\Server.pdb
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\obj\Debug\Server.exe
+C:\Users\Admin\source\repos\NetProgTCPClient\Server\obj\Debug\Server.pdb
